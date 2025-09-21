@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.payments-refunds h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.payments-refunds p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-bottom: 12px;
+    color: #007bff;
+}
+
+.card p {
+    margin-bottom: 12px;
+}
+
+.card ul {
+    margin-left: 20px;
+}
+
+.card ul li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+:root {
+    --accent: #ff6f61;
+    --muted: #6c757d;
+    --card-bg: #ffffff;
+    --page-bg: #f8f9fa;
+}
+
+.brand {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.hero {
+    background: linear-gradient(90deg, rgba(255, 111, 97, 0.06), rgba(0, 123, 255, 0.02));
+    border-radius: .75rem;
+}
+
+.policy-card {
+    border: none;
+    box-shadow: 0 6px 20px rgba(16, 24, 40, 0.06);
+}
+
+.section-title {
+    font-weight: 600;
+}
+
+.muted {
+    color: var(--muted);
+}
+
+.footer {
+    font-size: .9rem;
+}
+
+.hero {
+    background: linear-gradient(90deg, rgba(255, 111, 97, 0.03), rgba(0, 123, 255, 0.01));
+}
+
+.order-card {
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.order-card:hover {
+    transform: translateY(-3px);
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    margin-top: 20px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 2px;
+    height: 100%;
+    background: #007bff;
+}
+
+.timeline li {
+    margin: 20px 0;
+    padding-left: 50px;
+    position: relative;
+}
+
+.timeline li::before {
+    content: '';
+    position: absolute;
+    left: 12px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #007bff;
+}
+
+.produt-item-card {
+    border-radius: 16px;
+
+}
+
+.item {
+    border-color: black;
+    font-family: Roboto;
+
+}
+
+.item-image {
+    border-radius: 16px;
+    width: 290px;
+    height: 250px;
+}
+
+.buttonstyle {
+    border-color: blue;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    color: #d0b200;
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+}
+
+.ccc {
+    text-decoration: underline;
+}
+
+.main-heading {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.abtusection {
+    font-style: italic;
+}
+
+.zudio-logo {
+    width: 50px;
+    height: 60px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.banner-section-bg-container {
+    background-image: url("https://www.aspectdesign.in/sites/default/files/2024-03/work-zudio-barabazar-09.jpeg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.banner-caption {
+    color: white;
+    font-family: "Roboto";
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: white;
+    background-color: transparent;
+    width: 150px;
+    height: 45px;
+    border-width: 5px;
+    border-radius: 12px;
+    border-color: #d0b200;
+    margin-right: 10px;
+}
+
+.custom-1 {
+    color: white;
+    width: 130px;
+    height: 45px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #d0b200;
+    border-radius: 8px;
+
+}
+
+.custom-outline {
+    color: white;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
